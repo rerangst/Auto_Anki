@@ -26,7 +26,7 @@ Source code ở [địa chỉ trên](ref:https://charly-lersteau.com/posts/2019-
 
 #### 2.1. Nguồn file số `epub` lấy từ dự án số hóa của TVE-4U ở [đây.](http://tve-4u.org/threads/truye%CC%A3n-kie%CC%80u-nguye%CC%83n-du-ha%CC%80-huy-gia%CC%81p-nguye%CC%83n-tha%CC%A3ch-giang-1000qsv1tvb-0112.30643/)
 
-File `epub` đã được chỉnh sửa để cắt nhưng nội dung giới thiệu không cần thiết và chuyển về định dạng `htmlz` ( bằng calibre), có thể tìm thấy file `htmlz` [ở đây]()
+File `epub` đã được chỉnh sửa để cắt nhưng nội dung giới thiệu không cần thiết và chuyển về định dạng `htmlz` ( bằng calibre), có thể tìm thấy file `htmlz` [ở đây](source.htmlz)
 
 #### 2.2. Chuyển dữ liệu từ `html` vào Deck Anki
 
@@ -39,7 +39,6 @@ File `epub` đã được chỉnh sửa để cắt nhưng nội dung giới thi
 + Cơ chế để chuyển text từ `html` sang Anki Deck:
 
     - Sử dụng thư viện `BeautifulSoup` để tách chữ từ `html`; chạy lệnh sau để xem kết quả tách chữ demo:
-
     ``` python
         python3 parseHTML.py
         # Output in ra màn hình dang:
@@ -55,8 +54,7 @@ File `epub` đã được chỉnh sửa để cắt nhưng nội dung giới thi
         3254 :   Mua vui cũng được một vài trống canh.
     ```
 
-    - Thư viện `genanki` cho phép tạo các file `.dpkg` từ nguồn text (như trong ví dụ ở trên =)))
-    
+    - Thư viện `genanki` cho phép tạo các file `.dpkg` từ nguồn text (như trong ví dụ ở trên =)))    
     ``` python 
         # Với mỗi dòng ở file text csv
         for row in csv_reader:
