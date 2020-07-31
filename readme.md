@@ -1,3 +1,8 @@
+## Demo tạo  Ankin tự động từ nguồn dữ liệu text, csv, epub...
+Front             |  Back
+:-------------------------:|:-------------------------:
+![](preview/frontCard.png)  |  ![](preview/backCard.png)
+
 ### 1. Làm quen và khởi động:
 #### Cài đặt `genanki`:
 
